@@ -1,0 +1,144 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows7.0</TargetFramework>
+    <RootNamespace>RDA.Task._1</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\tas.png" />
+    <None Remove="Images\Task1.png" />
+    <None Remove="Images\Task10.jpg" />
+    <None Remove="Images\task10.png" />
+    <None Remove="Images\Task11.jpg" />
+    <None Remove="Images\task11.png" />
+    <None Remove="Images\Task12.jpg" />
+    <None Remove="Images\task12.png" />
+    <None Remove="Images\Task13.jpg" />
+    <None Remove="Images\task13.png" />
+    <None Remove="Images\Task14.jpg" />
+    <None Remove="Images\task14.png" />
+    <None Remove="Images\Task15.jpg" />
+    <None Remove="Images\task15.png" />
+    <None Remove="Images\Task16.jpg" />
+    <None Remove="Images\task16.png" />
+    <None Remove="Images\Task17.jpg" />
+    <None Remove="Images\task17.png" />
+    <None Remove="Images\Task18.jpeg" />
+    <None Remove="Images\task18.png" />
+    <None Remove="Images\Task19.jpg" />
+    <None Remove="Images\task19.png" />
+    <None Remove="Images\Task2.png" />
+    <None Remove="Images\Task20.jpg" />
+    <None Remove="Images\task20.png" />
+    <None Remove="Images\Task21.jpg" />
+    <None Remove="Images\task21.png" />
+    <None Remove="Images\Task22.jpg" />
+    <None Remove="Images\task22.png" />
+    <None Remove="Images\Task23.jpg" />
+    <None Remove="Images\task23.png" />
+    <None Remove="Images\Task24.jpg" />
+    <None Remove="Images\task24.png" />
+    <None Remove="Images\Task25.jpg" />
+    <None Remove="Images\task25.png" />
+    <None Remove="Images\Task26.jpg" />
+    <None Remove="Images\task26.png" />
+    <None Remove="Images\Task27.jpg" />
+    <None Remove="Images\task27.png" />
+    <None Remove="Images\Task28.jpg" />
+    <None Remove="Images\task28.png" />
+    <None Remove="Images\Task29.jpg" />
+    <None Remove="Images\task29.png" />
+    <None Remove="Images\Task3.png" />
+    <None Remove="Images\task30.png" />
+    <None Remove="Images\Task31.png" />
+    <None Remove="Images\Task32.jpg" />
+    <None Remove="Images\Task32.png" />
+    <None Remove="Images\Task4.png" />
+    <None Remove="Images\task44.png" />
+    <None Remove="Images\Task5.jpg" />
+    <None Remove="Images\Task55.png" />
+    <None Remove="Images\task56.png" />
+    <None Remove="Images\task6.jpg" />
+    <None Remove="Images\task67.png" />
+    <None Remove="Images\Task7.jpg" />
+    <None Remove="Images\task7.png" />
+    <None Remove="Images\Task8.jpg" />
+    <None Remove="Images\task8.png" />
+    <None Remove="Images\Task9.jpg" />
+    <None Remove="Images\task9.png" />
+    <None Remove="Images\Tasker.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\tas.png" />
+    <Resource Include="Images\Task1.png" />
+    <Resource Include="Images\Task10.jpg" />
+    <Resource Include="Images\task10.png" />
+    <Resource Include="Images\Task11.jpg" />
+    <Resource Include="Images\task11.png" />
+    <Resource Include="Images\Task12.jpg" />
+    <Resource Include="Images\task12.png" />
+    <Resource Include="Images\Task13.jpg" />
+    <Resource Include="Images\task13.png" />
+    <Resource Include="Images\Task14.jpg" />
+    <Resource Include="Images\task15.png" />
+    <Resource Include="Images\Task16.jpg" />
+    <Resource Include="Images\task16.png" />
+    <Resource Include="Images\Task17.jpg" />
+    <Resource Include="Images\task17.png" />
+    <Resource Include="Images\Task18.jpeg" />
+    <Resource Include="Images\task18.png" />
+    <Resource Include="Images\Task19.jpg" />
+    <Resource Include="Images\task19.png" />
+    <Resource Include="Images\Task2.png" />
+    <Resource Include="Images\Task20.jpg" />
+    <Resource Include="Images\task20.png" />
+    <Resource Include="Images\Task21.jpg" />
+    <Resource Include="Images\task21.png" />
+    <Resource Include="Images\Task22.jpg" />
+    <Resource Include="Images\task22.png" />
+    <Resource Include="Images\Task23.jpg" />
+    <Resource Include="Images\task23.png" />
+    <Resource Include="Images\Task24.jpg" />
+    <Resource Include="Images\task24.png" />
+    <Resource Include="Images\Task25.jpg" />
+    <Resource Include="Images\task25.png" />
+    <Resource Include="Images\Task26.jpg" />
+    <Resource Include="Images\task26.png" />
+    <Resource Include="Images\Task27.jpg" />
+    <Resource Include="Images\task27.png" />
+    <Resource Include="Images\Task28.jpg" />
+    <Resource Include="Images\task28.png" />
+    <Resource Include="Images\Task29.jpg" />
+    <Resource Include="Images\task29.png" />
+    <Resource Include="Images\Task3.png" />
+    <Resource Include="Images\task30.png" />
+    <Resource Include="Images\Task31.png" />
+    <Resource Include="Images\Task32.jpg" />
+    <Resource Include="Images\Task32.png" />
+    <Resource Include="Images\Task4.png" />
+    <Resource Include="Images\task44.png" />
+    <Resource Include="Images\Task5.jpg" />
+    <Resource Include="Images\Task55.png" />
+    <Resource Include="Images\task56.png" />
+    <Resource Include="Images\task6.jpg" />
+    <Resource Include="Images\task67.png" />
+    <Resource Include="Images\Task7.jpg" />
+    <Resource Include="Images\task7.png" />
+    <Resource Include="Images\Task8.jpg" />
+    <Resource Include="Images\task8.png" />
+    <Resource Include="Images\Task9.jpg" />
+    <Resource Include="Images\task9.png" />
+    <Resource Include="Images\Tasker.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignColors" Version="2.1.1" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.7.1" />
+  </ItemGroup>
+
+</Project>
